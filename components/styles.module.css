@@ -47,7 +47,7 @@
   width: 100%;
   max-width: 1100px;
   margin: auto auto 0;
-  padding: 8px;
+  padding: 8px 8px 20px;
 
   display: flex;
   flex-direction: row;
@@ -56,7 +56,7 @@
 }
 
 .copyright {
-  font-size: 80%;
+  font-size: 90%;
   padding: 0.5em;
 }
 
@@ -68,7 +68,7 @@
 .settings a,
 .social a {
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.6em;
   display: inline-flex;
   padding: 0.25em;
   margin-right: 1vw;

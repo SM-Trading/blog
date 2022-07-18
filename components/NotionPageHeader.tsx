@@ -75,7 +75,8 @@ export const NotionPageHeader: React.FC<{
                 )
               }
             })
-            .filter(Boolean)}
+            .filter(Boolean)
+          }
 
           <ToggleThemeButton />
 
