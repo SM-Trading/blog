@@ -21,6 +21,22 @@
   --notion-max-width: 900px;
 }
 
+.index-page .notion-gallery-grid {
+  border-top: hidden;
+}
+
+.index-page .notion-collection-header {
+  height: unset;
+}
+
+.index-page .notion-collection-card {
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.20);
+}
+
+.dark-mode .index-page .notion-collection-card {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .notion-text {
   padding: 0.5em 2px;
 }
@@ -78,7 +94,7 @@
 }
 
 .notion-collection-card-cover img {
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .notion-page-scroller {
