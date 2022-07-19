@@ -12,7 +12,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   console.log('<<< lambda search-notion', searchParams)
   const results = await search(searchParams)
-  console.log('>>> lambda search-notion', results)
 
   res.setHeader(
     'Cache-Control',
