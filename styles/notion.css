@@ -21,6 +21,10 @@
   --notion-max-width: none;
 }
 
+.index-page .notion-toggle {
+  display: none;
+}
+
 .index-page .notion-gallery-grid {
   border-top: hidden;
 }
