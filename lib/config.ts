@@ -47,6 +47,7 @@ export const environment = process.env.NODE_ENV || 'development'
 export const isDev = environment === 'development'
 
 // general site config
+export const isBlog: boolean = getSiteConfig('isBlog', false)
 export const name: string = getSiteConfig('name')
 export const author: string = getSiteConfig('author')
 export const domain: string = getSiteConfig('domain')
@@ -141,7 +142,8 @@ export const site: Site = {
   name,
   rootNotionPageId,
   rootNotionSpaceId,
-  description
+  description,
+  isBlog
 }
 
 export const fathomId = isDev ? null : process.env.NEXT_PUBLIC_FATHOM_ID

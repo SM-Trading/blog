@@ -230,6 +230,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
 
+  console.log(site.isBlog)
   return (
     <>
       <PageHead
@@ -247,7 +248,8 @@ export const NotionPage: React.FC<types.PageProps> = ({
       <NotionRenderer
         bodyClassName={cs(
           styles.notion,
-          pageId === site.rootNotionPageId && 'index-page'
+          pageId === site.rootNotionPageId && 'index-page',
+          site.isBlog && 'blog',
         )}
         darkMode={isDarkMode}
         components={components}

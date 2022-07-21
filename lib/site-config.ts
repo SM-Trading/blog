@@ -32,6 +32,8 @@ export interface SiteConfig {
 
   navigationStyle?: types.NavigationStyle
   navigationLinks?: Array<NavigationLink>
+
+  isBlog?: boolean
 }
 
 export interface NavigationLink {
