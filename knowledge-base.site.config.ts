@@ -1,7 +1,7 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  isBlog: true,
+  isBlog: false,
 
   // the site's root Notion page (required)
   rootNotionPageId: '3c6fb22350a44a939b29a0d0fa8ecd99',
