@@ -1,23 +1,23 @@
 import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
-  // isBlog: true,
+  isBlog: true,
 
   // the site's root Notion page (required)
-  // rootNotionPageId: '3c6fb22350a44a939b29a0d0fa8ecd99',
-  rootNotionPageId: 'a0c8c9323ffe4905b42a85cd2ce6e2f6',
+  rootNotionPageId: '3c6fb22350a44a939b29a0d0fa8ecd99',
+  // rootNotionPageId: 'a0c8c9323ffe4905b42a85cd2ce6e2f6',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'SM Trading Insights Blog',
+  name: 'Chainsights Blog',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   author: '',
 
   // open graph metadata (optional)
-  description: 'SM Trading Insights Blog',
+  description: 'Chainsights Blog',
 
   // social usernames (optional)
   twitter: 'transitive_bs',

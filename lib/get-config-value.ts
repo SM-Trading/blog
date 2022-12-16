@@ -1,5 +1,9 @@
-import rawSiteConfig from '../site.config'
+import knowledgeBaseConfig from '../knowledge-base.site.config'
+import blogConfig from '../knowledge-base.site.config'
 import { SiteConfig } from './site-config'
+
+const rawSiteConfig =
+  process.env.BLOG === 'true' ? blogConfig : knowledgeBaseConfig
 
 if (!rawSiteConfig) {
   throw new Error(`Config error: invalid site.config.ts`)
