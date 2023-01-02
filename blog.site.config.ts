@@ -4,7 +4,7 @@ export default siteConfig({
   isBlog: true,
 
   // the site's root Notion page (required)
-  rootNotionPageId: '3c6fb22350a44a939b29a0d0fa8ecd99',
+  rootNotionPageId: '68556766a8c94f1dbeeb41bc3f2ddf06',
   // rootNotionPageId: 'a0c8c9323ffe4905b42a85cd2ce6e2f6',
 
   // if you want to restrict pages to a single notion workspace (optional)
@@ -13,7 +13,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Chainsights Blog',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'blog.alphametrics.ai',
   author: '',
 
   // open graph metadata (optional)
